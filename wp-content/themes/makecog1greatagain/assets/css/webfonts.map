@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sass/webfonts.css",
+	"sources": [
+		"sass/webfonts.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\n    font-family: 'Harmonia Sans Pro Cyr';\n    src: url('../../webfonts/HarmoniaSansProCyr-Bold.woff2') format('woff2'),\n        url('../../webfonts/HarmoniaSansProCyr-Bold.woff') format('woff');\n    font-weight: bold;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Harmonia Sans Pro Cyr Semi Bd';\n    src: url('../../webfonts/HarmoniaSansProCyr-SemiBd.woff2') format('woff2'),\n        url('../../webfonts/HarmoniaSansProCyr-SemiBd.woff') format('woff');\n    font-weight: 600;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Ogg';\n    src: url('../../webfonts/Ogg-Roman.woff2') format('woff2'),\n        url('../../webfonts/Ogg-Roman.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\n"
+	],
+	"mappings": "AAAA,UAAU;EACN,WAAW,EAAE,uBAAwB;EACrC,GAAG,EAAE,mDAAG,CAAiD,eAAM,EAC3D,kDAAG,CAAgD,cAAM;EAC7D,WAAW,EAAE,IAAK;EAClB,UAAU,EAAE,MAAO;;;AAGvB,UAAU;EACN,WAAW,EAAE,+BAAgC;EAC7C,GAAG,EAAE,qDAAG,CAAmD,eAAM,EAC7D,oDAAG,CAAkD,cAAM;EAC/D,WAAW,EAAE,GAAI;EACjB,UAAU,EAAE,MAAO;;;AAGvB,UAAU;EACN,WAAW,EAAE,KAAM;EACnB,GAAG,EAAE,qCAAG,CAAmC,eAAM,EAC7C,oCAAG,CAAkC,cAAM;EAC/C,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO",
+	"names": []
+}

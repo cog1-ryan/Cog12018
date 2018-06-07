@@ -1,0 +1,81 @@
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100px;
+  width: 100px;
+  background: #f3f3f3;
+  cursor: pointer;
+  overflow: hidden;
+  transition: .1s ease;
+  /*--- Close Button 1 ---*/
+}
+
+.menu:hover {
+  background: #2b292f;
+}
+
+.menu:hover .menu__line {
+  background-color: #fff;
+}
+
+.menu__icon {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu__line {
+  position: absolute;
+  left: 0;
+  background-color: #f93a50;
+  height: 3px;
+  width: 100%;
+  pointer-events: none;
+}
+
+.menu__line--1 {
+  top: 0;
+}
+
+.menu__line--2 {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.menu__line--3 {
+  bottom: -1px;
+}
+
+.menu--close1 .menu__line--1 {
+  transition: transform .2s ease-in-out;
+}
+
+.menu--close1 .menu__line--2 {
+  right: 0;
+  transition: right .2s ease-in-out,  opacity .35s ease-in-out,  transform 0s ease-in-out;
+}
+
+.menu--close1 .menu__line--3 {
+  transition: transform .2s ease-in-out;
+}
+
+.menu--close1.open .menu__line--1 {
+  transform: translate3d(0, 8.5px, 0) rotate(135deg);
+}
+
+.menu--close1.open .menu__line--2 {
+  opacity: 0;
+  right: -120px;
+  transform: translate3d(-30px, 0, 0);
+  transition: opacity .2s ease-in-out,  transform .2s ease-in-out,  right .0s ease-in-out .2s;
+}
+
+.menu--close1.open .menu__line--3 {
+  transform: translate3d(0, -8.5px, 0) rotate(-135deg);
+  bottom: 0px;
+}

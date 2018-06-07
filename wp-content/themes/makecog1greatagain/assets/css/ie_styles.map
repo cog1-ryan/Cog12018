@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sass/ie_styles.css",
+	"sources": [
+		"sass/ie_styles.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"mappings": "",
+	"names": []
+}

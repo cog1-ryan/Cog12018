@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sass/vars.css",
+	"sources": [
+		"sass/vars.scss"
+	],
+	"sourcesContent": [
+		"$white: #fff;\n$lightgray:#f3f3f3;\n$lightgray2:#e5e5e5;\n$gray:#757576;\n$gray2:#8e8e8f;\n$darkgray:#141218;\n$darkgray2:#2b292f;\n$red:#f93a50;\n$darkred:#d1213c;\n\n$fontbold:'Harmonia Sans Pro Cyr';\n$fontsemibold:'Harmonia Sans Pro Cyr Semi Bd';\n$fontserif:'Ogg';\n\n$singlepadding: 7%;\n$standardpadding:7% 0;\n$sidepadding:6%;\n"
+	],
+	"mappings": "",
+	"names": []
+}
